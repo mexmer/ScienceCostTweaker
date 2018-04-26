@@ -498,3 +498,6 @@ data:extend({
 	]]--
 
 })
+
+data.raw["item-subgroup"]["science-pack"].group = "sct-science"
+data.raw["item-subgroup"]["science-pack"].order = "z"
