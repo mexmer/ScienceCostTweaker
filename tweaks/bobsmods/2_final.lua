@@ -24,16 +24,16 @@ require("tweaks.bobsmods.sciencegroup")
 		data.raw.tool["logistic-science-pack"].subgroup = "science-pack"
 		data.raw.tool["logistic-science-pack"].order = "e-c-b"
 	end
-  if data.raw.recipe["logistic-science-pack"] then
-  	data.raw.recipe["logistic-science-pack"].subgroup = "sct-sciencepack-logistic"
-  end
+	if data.raw.recipe["logistic-science-pack"] then
+		data.raw.recipe["logistic-science-pack"].subgroup = "sct-sciencepack-logistic"
+	end
 	if data.raw.tool["science-pack-gold"] then
 		data.raw.tool["science-pack-gold"].subgroup = "science-pack"
 		data.raw.tool["science-pack-gold"].order = "e-b-a"
 	end
-  if data.raw.recipe["science-pack-gold"] then
-  	data.raw.recipe["science-pack-gold"].subgroup = "sct-sciencepack-gold"
-  end
+	if data.raw.recipe["science-pack-gold"] then
+		data.raw.recipe["science-pack-gold"].subgroup = "sct-sciencepack-gold"
+	end
 	if data.raw.recipe["alien-science-pack"] and data.raw.tool["alien-science-pack"] then
 		data.raw.recipe["alien-science-pack"].subgroup = "sct-sciencepack-alien"
 		data.raw.recipe["alien-science-pack-blue"].subgroup = "sct-sciencepack-alien"
@@ -42,7 +42,7 @@ require("tweaks.bobsmods.sciencegroup")
 		data.raw.recipe["alien-science-pack-yellow"].subgroup = "sct-sciencepack-alien"
 		data.raw.recipe["alien-science-pack-green"].subgroup = "sct-sciencepack-alien"
 		data.raw.recipe["alien-science-pack-red"].subgroup = "sct-sciencepack-alien"
-    data.raw.tool["alien-science-pack"].order = "e-b-b"
+		data.raw.tool["alien-science-pack"].order = "e-b-b"
 		data.raw.tool["alien-science-pack-blue"].order = "e-b-c"
 		data.raw.tool["alien-science-pack-orange"].order = "e-b-d"
 		data.raw.tool["alien-science-pack-purple"].order = "e-b-e"

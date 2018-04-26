@@ -9,7 +9,7 @@ if mods["angelsbioprocessing"] then
 		table.insert(data.raw["lab"]["sct-lab-3"].inputs, "token-bio")
 		table.insert(data.raw["lab"]["sct-lab-4"].inputs, "token-bio")
 
-    data.raw.tool["token-bio"].order = "b[token-bio]"
-    data.raw.tool["token-bio"].subgroup = "science-pack"
+		data.raw.tool["token-bio"].order = "b[token-bio]"
+		data.raw.tool["token-bio"].subgroup = "science-pack"
 	end
 end
