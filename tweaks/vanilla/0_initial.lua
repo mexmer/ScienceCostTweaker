@@ -61,7 +61,7 @@ data:extend({
 		type = "recipe",
 		name = "sct-t2-reaction-nodes",
 		subgroup = "sct-sciencepack-2",
-		order = "b[reactionnodes]",
+		order = "b-b",
 		enabled = "true",
 		energy_required = 1.5,
 		ingredients =
@@ -79,7 +79,7 @@ data:extend({
 		type = "recipe",
 		name = "sct-t2-instruments",
 		subgroup = "sct-sciencepack-2",
-		order = "b[instruments]",
+		order = "b-a-a",
 		enabled = "true",
 		energy_required = 1.5,
 		ingredients =
@@ -97,7 +97,7 @@ data:extend({
 		type = "recipe",
 		name = "sct-t2-microcircuits",
 		subgroup = "sct-sciencepack-2",
-		order = "b[microcircuits]",
+		order = "b-a-b",
 		enabled = "true",
 		energy_required = 1.5,
 		ingredients =
@@ -115,7 +115,7 @@ data:extend({
 		type = "recipe",
 		name = "sct-t2-micro-wafer",
 		subgroup = "sct-sciencepack-2",
-		order = "b[microwafer]",
+		order = "b-a-c",
 		enabled = "true",
 		energy_required = 3,
 		ingredients =
@@ -133,7 +133,7 @@ data:extend({
 		type = "recipe",
 		name = "sct-t2-wafer-stamp",
 		subgroup = "sct-sciencepack-2",
-		order = "b[waferstamp]",
+		order = "b-a-d",
 		enabled = "true",
 		energy_required = 3,
 		ingredients =
@@ -155,7 +155,7 @@ data:extend({
 		icon_size = 32,
 		icon = "__ScienceCostTweakerM__/graphics/icons/flash-fuel.png",
 		subgroup = "sct-sciencepack-3",
-		order = "b[flashfuel]",
+		order = "b-b",
 		enabled = "false",
 		energy_required = 3,
 		ingredients =
@@ -177,7 +177,7 @@ data:extend({
 		icon_size = 32,
 		icon = "__ScienceCostTweakerM__/graphics/icons/laser-foci.png",
 		subgroup = "sct-sciencepack-3",
-		order = "b[laserfoci]",
+		order = "b-c",
 		enabled = "false",
 		energy_required = 3,
 		ingredients =
@@ -198,7 +198,7 @@ data:extend({
 		icon_size = 32,
 		icon = "__ScienceCostTweakerM__/graphics/icons/laser-emitter.png",
 		subgroup = "sct-sciencepack-3",
-		order = "b[laseremitter]",
+		order = "b-d",
 		category = "crafting",
 		enabled = "false",
 		energy_required = 3,
@@ -222,7 +222,7 @@ data:extend({
 		icon_size = 32,
 		icon = "__ScienceCostTweakerM__/graphics/icons/femto-lasers.png",
 		subgroup = "sct-sciencepack-3",
-		order = "b[femtolasers]",
+		order = "b-a",
 		enabled = "false",
 		energy_required = 3,
 		ingredients =
@@ -244,7 +244,7 @@ data:extend({
 		category = "crafting-with-fluid",
 		icon_size = 32,
 		icon = "__ScienceCostTweakerM__/graphics/icons/atomic-sensors.png",
-		order = "b[atomicsensors]",
+		order = "b-e",
 		subgroup = "sct-sciencepack-3",
 		enabled = "false",
 		energy_required = 3,
@@ -271,7 +271,7 @@ data:extend({
 		icon = "__ScienceCostTweakerM__/graphics/icons/sct-mil-subplating.png",
 		category = "crafting",
 		subgroup = "sct-sciencepack-mil",
-		order = "b[subplating]",
+		order = "b-a-b",
 		enabled = "false",
 		energy_required = 0.5,
 		ingredients =
@@ -292,7 +292,7 @@ data:extend({
 		icon = "__ScienceCostTweakerM__/graphics/icons/sct-mil-plating.png",
 		category = "advanced-crafting",
 		subgroup = "sct-sciencepack-mil",
-		order = "b[plating]",
+		order = "b-a-a",
 		enabled = "false",
 		energy_required = 10,
 		ingredients =
@@ -315,7 +315,7 @@ data:extend({
 		icon = "__ScienceCostTweakerM__/graphics/icons/military_analysis_1.png",
 		category = "crafting",
 		subgroup = "sct-sciencepack-mil",
-		order = "b[circuit1]",
+		order = "b-b-c",
 		enabled = "false",
 		energy_required = 1,
 		ingredients =
@@ -337,7 +337,7 @@ data:extend({
 		icon = "__ScienceCostTweakerM__/graphics/icons/military_analysis_2.png",
 		category = "crafting",
 		subgroup = "sct-sciencepack-mil",
-		order = "b[circuit2]",
+		order = "b-b-b",
 		enabled = "false",
 		energy_required = 1,
 		ingredients =
@@ -359,7 +359,7 @@ data:extend({
 		icon_size = 32,
 		icon = "__ScienceCostTweakerM__/graphics/icons/military_analysis_3.png",
 		subgroup = "sct-sciencepack-mil",
-		order = "b[circuit3]",
+		order = "b-b-a",
 		enabled = "false",
 		energy_required = 1,
 		ingredients =
@@ -387,7 +387,7 @@ data:extend({
 		icon_size = 32,
 		icon = "__ScienceCostTweakerM__/graphics/icons/sct-prod-biosilicate.png",
 		subgroup = "sct-sciencepack-prod",
-		order = "b[biosillicate]",
+		order = "b-a-c",
 		enabled = "false",
 		energy_required = 3,
 		ingredients =
@@ -409,7 +409,7 @@ data:extend({
 		name = "sct-prod-baked-biopaste",
 		category = "smelting",
 		subgroup = "sct-sciencepack-prod",
-		order = "b[biopaste]",
+		order = "b-a-b",
 		energy_required = 3,
 		enabled = "false",
 		ingredients = {{"sct-prod-biosilicate", 1}},
@@ -423,7 +423,7 @@ data:extend({
 		icon_size = 32,
 		icon = "__ScienceCostTweakerM__/graphics/icons/bioprocessor.png",
 		subgroup = "sct-sciencepack-prod",
-		order = "b[bioprocessor]",
+		order = "b-a-a",
 		enabled = "false",
 		energy_required = 30,
 		ingredients =
@@ -445,7 +445,7 @@ data:extend({
 		icon_size = 32,
 		icon = "__ScienceCostTweakerM__/graphics/icons/overclocker.png",
 		subgroup = "sct-sciencepack-prod",
-		order = "b[overclocker]",
+		order = "b-b",
 		enabled = "false",
 		energy_required = 1,
 		ingredients =
@@ -474,7 +474,7 @@ data:extend({
 		icon_size = 32,
 		icon = "__ScienceCostTweakerM__/graphics/icons/sct-htech-capbank.png",
 		subgroup = "sct-sciencepack-hightech",
-		order = "b[capbank]",
+		order = "b-a",
 		enabled = "false",
 		energy_required = 4,
 		ingredients =
@@ -497,7 +497,7 @@ data:extend({
 		icon_size = 32,
 		icon = "__ScienceCostTweakerM__/graphics/icons/sct-htech-injector.png",
 		subgroup = "sct-sciencepack-hightech",
-		order = "b[capbank]",
+		order = "b-b",
 		enabled = "false",
 		energy_required = 3.5,
 		ingredients =
@@ -521,7 +521,7 @@ data:extend({
 		icon_size = 32,
 		icon = "__ScienceCostTweakerM__/graphics/icons/sct-htech-thermalstore.png",
 		subgroup = "sct-sciencepack-hightech",
-		order = "b[thermalstore]",
+		order = "b-c-d",
 		enabled = "false",
 		energy_required = 3.5,
 		ingredients =
@@ -540,7 +540,7 @@ data:extend({
 		name = "sct-htech-thermalstore-heated",
 		category = "smelting",
 		subgroup = "sct-sciencepack-hightech",
-		order = "b[heatedthermalstore]",
+		order = "b-c-b",
 		energy_required = 22,
 		enabled = "false",
 		ingredients = {{"sct-htech-thermalstore", 1}},
@@ -554,7 +554,7 @@ data:extend({
 		icon_size = 32,
 		icon = "__ScienceCostTweakerM__/graphics/icons/sct-htech-random.png",
 		subgroup = "sct-sciencepack-hightech",
-		order = "b[random]",
+		order = "b-c-a",
 		enabled = "false",
 		energy_required = 7,
 		ingredients =

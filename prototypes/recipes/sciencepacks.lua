@@ -125,3 +125,4 @@ data.raw["recipe"]["high-tech-science-pack"].ingredients =
 		{"sct-htech-random", 1}
     }
 data.raw["recipe"]["high-tech-science-pack"].subgroup = "sct-sciencepack-hightech"
+data.raw["recipe"]["high-tech-science-pack"].order = "a[high-tech-science-pack]"
