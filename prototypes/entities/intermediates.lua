@@ -299,7 +299,7 @@ data:extend({
 		icon = "__ScienceCostTweakerM__/graphics/icons/sct-prod-biosilicate.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "sct-sciencepack-prod",
-		order = "b3[biosilicate]",
+		order = "b-a-c",
 		stack_size = 200
 	},
 
@@ -310,7 +310,7 @@ data:extend({
 		icon = "__ScienceCostTweakerM__/graphics/icons/sct-prod-baked-biopaste.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "sct-sciencepack-prod",
-		order = "b1[biopaste]",
+		order = "b-a-b",
 		stack_size = 200
 	},
 
@@ -321,7 +321,7 @@ data:extend({
 		icon = "__ScienceCostTweakerM__/graphics/icons/bioprocessor.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "sct-sciencepack-prod",
-		order = "b1[bioprocessor]",
+		order = "b-a-a",
 		stack_size = 200
 	},
 
@@ -332,7 +332,7 @@ data:extend({
 		icon = "__ScienceCostTweakerM__/graphics/icons/overclocker.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "sct-sciencepack-prod",
-		order = "b4[overclocker]",
+		order = "b-b",
 		stack_size = 200
 	},
 
