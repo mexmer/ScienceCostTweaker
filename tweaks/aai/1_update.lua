@@ -53,8 +53,20 @@ if mods["aai-industry"] then
 			},
 		}			
 	end
+	
 	sctm.tech_dependency_add("sct-lab-t1", "electricity")
-	sctm.tech_dependency_add("sct-lab-t1", "basic-logistics")
+	
+	if mods["bobpower"] then
+		if settings.startup["bobmods-logistics-beltoverhaul"].value == true then
+			--Add function to change "bob-logistics-0" tech to use t0 science, instead of t1
+			--addprereq("logistics", "sct-research-t1") -- Not sure if this is necessary. 
+				-- Does this happen before or after all the techs are processed to add the tech researchs as prereq's?
+			
+			sctm.tech_dependency_add("sct-lab-t1", "bob-logistics-0")
+		else sctm.tech_dependency_add("sct-lab-t1", "basic-logistics")
+		end
+	else sctm.tech_dependency_add("sct-lab-t1", "basic-logistics")
+	end
 	
 	if data.raw.technology["electric-lab"] then
 		data.raw.technology["electric-lab"].enabled = false
