@@ -1,10 +1,10 @@
 {
   "name": "ScienceCostTweakerM",
-  "version": "0.16.49",
-  "factorio_version":"0.16",
+  "version": "0.17.00",
+  "factorio_version":"0.17",
   "title": "ScienceCostTweaker Mod (mexmer)",
   "author": "mexmer",
-  "dependencies": ["base >= 0.16.0" ],
+  "dependencies": ["base >= 0.17" ],
   "contact": "mexmer@github.com",
   "homepage": "https://github.com/mexmer/ScienceCostTweaker",
   "description": "Allows the cost of research to be tweaked, in terms of count, science packs and time. Edit its configs costs *.lua to tweak the multipliers. - Original mod made by UberWafe, this is adopted 0.16 version"
