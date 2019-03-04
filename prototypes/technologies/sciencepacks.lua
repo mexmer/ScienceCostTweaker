@@ -74,6 +74,7 @@ data:extend({
 		},
 		prerequisites =
 		{
+			"automation-2",
 			"sct-lab-t2",
 		},
 		unit =
