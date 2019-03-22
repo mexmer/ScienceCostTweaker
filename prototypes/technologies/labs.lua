@@ -221,4 +221,65 @@ data:extend({
 		order = "sct-lab-d[t4]",
 	},
 
+	-- TIER 5
+	-- space lab
+	{
+		type = "technology",
+		name = "sct-lab-t5",
+		icon_size = 128,
+		icons = 
+		{
+			{
+				icon = "__ScienceCostTweakerM__/graphics/sct-lab-t5/icon-128.png",
+			},
+			{
+				icon = "__ScienceCostTweakerM__/graphics/overlays/5-128.png",
+			},
+		},
+		effects = 
+		{
+			{
+				type = "unlock-recipe",
+				recipe = "sct-lab-t5",
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "sct-lab5-construction",
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "sct-lab5-pendulum",
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "sct-nuclear-core",
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "sct-radiation-shield",
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "sct-neutron-counter",
+			},
+		},
+		prerequisites =
+		{
+			"rocket-silo"
+		},
+		unit =
+		{
+			count = 100,
+			ingredients =
+			{
+				{"automation-science-pack", 3},
+				{"logistic-science-pack", 3},
+				{"chemical-science-pack", 3},
+				{"production-science-pack", 3},
+				{"utility-science-pack", 3}
+			},
+			time = 60,
+		},
+		order = "sct-lab-e[t5]",
+	},
 })
