@@ -1,5 +1,8 @@
 --INITIALIZE
 if not SCTTweaks then SCTTweaks = {} end
+if not sct then sct = {} end
+if not sct.api then sct.api = {} end
+if not sct.api.ignore_techs then sct.api.ignore_techs = {} end
 
 require("sctmlib")
 
