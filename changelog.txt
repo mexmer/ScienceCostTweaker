@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.17.11
+Date: 14. 6. 2019
+  Changes:
+    - Added 'NormalNoCheapStart' setting that doesn't cut red science in half
+    - Added MOD API config ('SCTTweaks.ignore_techs') to set technologies that shouldn't be impacted (Ex, SpaceMod). 
+---------------------------------------------------------------------------------------------------
 Version: 0.17.10
 Date: 27. 5. 2019
   Changes:

@@ -3,6 +3,7 @@ require("config")
 require("configs.costs.lolwhat")
 require("configs.costs.uberwaffe")
 require("configs.costs.normal")
+require("configs.costs.normalnocheapstart")
 require("configs.costs.extended")
 -- Recipe fixes
 require("prototypes.2_recipe")
@@ -25,38 +26,43 @@ if (settings.startup["sct-difficulty-cost"].value ~= "noadjustment") then
 
 	-- Iterate through all research, and update the costs as configured.
 	for index,tech in pairs(data.raw.technology) do 
-		-- First, determine the tier of the research, by looking at what types of science packs is used in its research cost.
+		-- First, see if we should ignore this technology
+		multiplier = nil
 
-		tier = 1
-		multiplier = sciencecosttweaker.costs.tier1;
-		for Index, Value in pairs( tech.unit.ingredients ) do
-			if (tier < 2 and tech.unit.ingredients[Index][1] == "logistic-science-pack") then
-				tier = 2
-				multiplier = sciencecosttweaker.costs.tier2;
-			end
-			if (tier < 3 and tech.unit.ingredients[Index][1] == "military-science-pack") then
-				tier = 3
-				multiplier = sciencecosttweaker.costs.military;
-			end
-			if (tier < 4 and tech.unit.ingredients[Index][1] == "production-science-pack") then
-				tier = 4
-				multiplier = sciencecosttweaker.costs.production;
-			end
-			if (tier < 5 and tech.unit.ingredients[Index][1] == "chemical-science-pack") then
-				tier = 5
-				multiplier = sciencecosttweaker.costs.tier3;
-			end
-			if (tier < 6 and tech.unit.ingredients[Index][1] == "utility-science-pack") then
-				tier = 6
-				multiplier = sciencecosttweaker.costs.hightech;
-			end
-			if (tier < 99 and tech.unit.ingredients[Index][1] == "module-case") then
-				tier = 99
-				multiplier = sciencecosttweaker.costs.bobmodules;
-			end
-			if (tech.unit.count_formula ~= nil) then
-				tier = 999999
-				multiplier = sciencecosttweaker.costs.formula;
+		if not sct.api.ignore_techs[tech.name] then
+			-- Second, determine the tier of the research, by looking at what types of science packs is used in its research cost.
+
+			tier = 1
+			multiplier = sciencecosttweaker.costs.tier1;
+			for Index, Value in pairs( tech.unit.ingredients ) do
+				if (tier < 2 and tech.unit.ingredients[Index][1] == "logistic-science-pack") then
+					tier = 2
+					multiplier = sciencecosttweaker.costs.tier2;
+				end
+				if (tier < 3 and tech.unit.ingredients[Index][1] == "military-science-pack") then
+					tier = 3
+					multiplier = sciencecosttweaker.costs.military;
+				end
+				if (tier < 4 and tech.unit.ingredients[Index][1] == "production-science-pack") then
+					tier = 4
+					multiplier = sciencecosttweaker.costs.production;
+				end
+				if (tier < 5 and tech.unit.ingredients[Index][1] == "chemical-science-pack") then
+					tier = 5
+					multiplier = sciencecosttweaker.costs.tier3;
+				end
+				if (tier < 6 and tech.unit.ingredients[Index][1] == "utility-science-pack") then
+					tier = 6
+					multiplier = sciencecosttweaker.costs.hightech;
+				end
+				if (tier < 99 and tech.unit.ingredients[Index][1] == "module-case") then
+					tier = 99
+					multiplier = sciencecosttweaker.costs.bobmodules;
+				end
+				if (tech.unit.count_formula ~= nil) then
+					tier = 999999
+					multiplier = sciencecosttweaker.costs.formula;
+				end
 			end
 		end
 

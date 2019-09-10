@@ -5,7 +5,7 @@ data:extend({
 		order = "sct-a[difficulty]",
 		setting_type = "startup",
 		default_value = "noadjustment",
-		allowed_values =  {"lolwhat", "noadjustment", "uberwaffe", "normal", "extended"}
+		allowed_values =  {"lolwhat", "noadjustment", "uberwaffe", "normal", "normalnocheapstart", "extended"}
 	},
 
 	{
