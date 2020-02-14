@@ -437,3 +437,10 @@ end
 if settings.startup["sct-military"].value == "tier2" then
         sctm.lab_input_add("sct-lab-t2", "military-science-pack")
 end
+
+if DiscoScience then
+	DiscoScience.prepareLab(data.raw["lab"]["lab"])
+	DiscoScience.prepareLab(data.raw["lab"]["sct-lab-t2"])
+	DiscoScience.prepareLab(data.raw["lab"]["sct-lab-t3"])
+	DiscoScience.prepareLab(data.raw["lab"]["sct-lab-t4"])
+end
