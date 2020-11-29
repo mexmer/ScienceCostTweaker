@@ -1,10 +1,10 @@
 {
   "name": "ScienceCostTweakerM",
-  "version": "0.18.2",
-  "factorio_version":"0.18",
+  "version": "0.18.3",
+  "factorio_version":"1.1",
   "title": "ScienceCostTweaker Mod (mexmer)",
   "author": "mexmer",
-  "dependencies": ["base >= 0.18.0", "? omnimatter_science >= 3.0.3", "? pycoalprocessing >= 1.2.0", "? bobtech" ],
+  "dependencies": ["base >= 1.1.0", "? omnimatter_science >= 3.0.3", "? pycoalprocessing >= 1.2.0", "? bobtech" ],
   "contact": "mexmer@github.com",
   "homepage": "https://github.com/mexmer/ScienceCostTweakerM",
   "description": "Allows the cost of research to be tweaked, in terms of count, science packs and time. Edit its configs costs *.lua to tweak the multipliers. - Original mod made by UberWafe, this is adopted 0.18 version"
