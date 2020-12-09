@@ -1,4 +1,18 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.18.4
+Date: 9. 12. 2020
+  Changes:
+    - maintenance release
+  Bugfixes:
+    - fix for handling removals from tables with nonnumeric index (@honktown)
+---------------------------------------------------------------------------------------------------
+Version: 0.18.3
+Date: 7. 12. 2020
+  Changes:
+    - maintenance release
+  Bugfixes:
+    - fix for missing angels refining productivity limits (@kingarthur)
+---------------------------------------------------------------------------------------------------
 Version: 0.18.2
 Date: 2. 6. 2020
   Changes:
