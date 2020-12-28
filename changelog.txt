@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.18.5
+Date: 28. 12. 2020
+  Changes:
+    - bugfix release
+  Bugfixes:
+    - fixed multiplier setting not applying, when technology uses science pack object instead of simple value pair ---------------------------------------------------------------------------------------------------
 Version: 0.18.4
 Date: 9. 12. 2020
   Changes:
