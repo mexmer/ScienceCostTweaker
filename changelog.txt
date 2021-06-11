@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.8
+Date: ???
+  Changes:
+    - Angel's Smelting compatibility:
+      - Replaced gold plate with silver plate in blue science pack recipes
+      - Replaced silver plate with gold plate in purple science pack recipe
+      - Replaced cobalt steel plate with brass plate in t3 lab recipe
+---------------------------------------------------------------------------------------------------
 Version: 1.1.7
 Date: 19.5.2021
   Changes:

@@ -46,7 +46,7 @@
 		Refunds: 5x Iron, 11x Copper = 5x Mixed + 3x Copper
 		
 	Bobsmod SCT cost: 
-		Cost: 10x Steel, 20x Stone, 5x Plastic, 4x Adv Circuit, 2x Circuit, 4x Redwire, 20x Petroleum, 1x Electric Engine, 10x Silver, 10x Tin plate, 10x Lead plate, 120x Sulfur Dioxide
+		Cost: 10x Steel, 20x Stone, 5x Plastic, 4x Adv Circuit, 2x Circuit, 4x Redwire, 20x Petroleum, 1x Electric Engine, 10x Gold, 10x Tin plate, 10x Lead plate, 120x Sulfur Dioxide
 		Refunds: 4x Sulfur
 ]]--
 
@@ -59,7 +59,7 @@
 		Refunds: 20x Copper
 	
 	Bobsmod SCT cost:
-		Cost: 23x Copper, 1x Steel, 6x Eletronic Circuits, 1x Adv Circuit, 10x Heavy Oil, 10x Light Oil, 30x Nitrogen, 14x Glass (Quartz), 10x Gold, 10x Aluminium (Bauxite)
+		Cost: 23x Copper, 1x Steel, 6x Eletronic Circuits, 1x Adv Circuit, 10x Heavy Oil, 10x Light Oil, 30x Nitrogen, 14x Glass (Quartz), 10x Silver, 10x Aluminium (Bauxite)
 		Refunds: 20x Copper = 10x Copper
 ]]--
 
