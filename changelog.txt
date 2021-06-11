@@ -4,7 +4,7 @@ Date: 19.5.2021
   Changes:
     - bugfix release
   Bugfixes:
-    - Hid duplicate lab and science pack recipes (@kiwihawk)
+    - Hid duplicate lab and science pack recipes
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.6
 Date: 27. 1. 2021
